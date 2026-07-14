@@ -23,7 +23,7 @@ function Login({ setUser }) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/login",
+        "https://ai-hair-care-recommendation-sysytem.onrender.com/login",
         {
           username,
           password,

@@ -7,7 +7,7 @@ function Dashboard({ user }) {
 
   useEffect(() => {
     if (user) {
-      axios.get(`http://127.0.0.1:5000/history/${user}`)
+      axios.get(`https://ai-hair-care-recommendation-sysytem.onrender.com/history/${user}`)
         .then(res => setHistory(res.data));
     }
   }, [user]);

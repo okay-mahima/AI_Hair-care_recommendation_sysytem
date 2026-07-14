@@ -25,7 +25,7 @@ function Recommend({ user }) {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/recommend",
+        "https://ai-hair-care-recommendation-sysytem.onrender.com/recommend",
         {
           username: user,
           problem,

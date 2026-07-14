@@ -21,7 +21,7 @@ function Signup() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/signup",
+        "https://ai-hair-care-recommendation-sysytem.onrender.com/signup",
         {
           username: username,
           password: password,
