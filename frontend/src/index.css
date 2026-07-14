@@ -1,0 +1,63 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth font rendering */
+body {
+  font-family: 'Poppins', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Beauty themed gradient background */
+  background: linear-gradient(135deg, #ffe6f0, #e6f7ff, #fff0f5);
+  min-height: 100vh;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Code styling (for API / logs / debugging UI) */
+code {
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Scrollbar styling (modern UI touch) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffe6f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff7eb3, #ff758c);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff4d88, #ff7eb3);
+}
+
+/* Selection color */
+::selection {
+  background: #ff7eb3;
+  color: white;
+}
+
+/* Links global style */
+a {
+  text-decoration: none;
+  color: #ff4d88;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #ff2e70;
+}
